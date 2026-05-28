@@ -1,0 +1,5 @@
+dataset,model,optimizer,lr,batch,hidden,accuracy,precision,recall,f1
+moons,SingleLayer,RMSProp,0.05,32,-,0.875,0.8409090909090909,0.925,0.8809523809523809
+moons,MLP+BReLU,RMSProp,0.05,16,8,1.0,1.0,1.0,1.0
+classification,SingleLayer,AdaGrad,1.0,16,-,0.95,0.9090909090909091,1.0,0.9523809523809523
+classification,MLP+BReLU,RMSProp,0.05,16,16,0.9,0.8636363636363636,0.95,0.9047619047619048
